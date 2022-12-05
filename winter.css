@@ -1,0 +1,41 @@
+.background {
+    background-color: #D0E2EB;
+}
+
+.backgroundimg {
+    opacity: 60%; 
+    width: 100vw;
+    max-height: 450px;
+    position: absolute;
+    bottom: -10px;
+}
+
+.card {
+    max-width: 300px;
+    display: inline-block;
+    background-color: #80A4C0;
+}
+  
+.list-group-item {
+    background-color: #80A4C0;
+}
+
+.card-text {
+    font-weight: bold;
+}
+
+.card-img-top {
+    border: 20px solid #80A4C0;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.decorimg {
+    width: 450px;
+    height: 225px;
+    opacity: 60%;
+    position: absolute;
+    left: 60%;
+}
