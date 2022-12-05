@@ -1,0 +1,23 @@
+.navbar{
+    background-color: #9D9D9D;
+}
+
+.navbar-brand{
+    font-size: 35px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #D9CC8A !important;
+    text-shadow: -1px 1px 0 rgba(0, 0, 0, 0.469),
+				  1px 1px 0 rgba(0, 0, 0, 0.469),
+				 1px -1px 0 rgba(0, 0, 0, 0.469),
+				-1px -1px 0 rgba(0, 0, 0, 0.469);
+}
+
+.navbar-nav > li{
+    padding-left:30px;
+    padding-right:30px;
+    font-size: 22px;
+    font-family: 'Snippet';
+}
