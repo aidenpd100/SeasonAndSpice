@@ -16,6 +16,9 @@
     height: 50vh;
     width: 50vw;
     background-size: 50vw 50vh;
+    font-family: 'Snippet';
+    display: flex;
+    justify-content: space-between;
 }
 
 .winter{
@@ -35,4 +38,18 @@
 .fall{
     background-color: #FEFAE0;
     background-image: url("Images/fall.png");
+}
+
+.recipes{
+    align-self: center;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.right{
+    text-align: right;
+}
+
+.invisible{
+    opacity: 0;
 }
