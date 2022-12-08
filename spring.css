@@ -1,0 +1,73 @@
+.background {
+    background-color: #F9FFDB;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.backgroundimg {
+    opacity: 60%;
+    width: 150vw;
+    max-height: 450px;
+    position: absolute;
+    bottom: -10px;
+    left: -400px;
+
+}
+
+
+.card {
+    max-width: 300px;
+    display: inline-block;
+    background-color: #FFD7F4;
+    min-height: 82vh;
+}
+
+.list-group-item {
+    background-color: #FFD7F4;
+}
+
+.card-text {
+    font-weight: bold;
+}
+
+.ingreedients-instructions {
+    font-size: 12px;
+
+}
+
+.card-img-top {
+    border: 20px solid #FFD7F4;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.decor-1 {
+    width: 600px;
+    height: 300px;
+    opacity: 70%;
+    position: absolute;
+    left: 57%;
+    top: -5%;
+
+}
+
+.decor-2 {
+    width: 200px;
+    height: 200px;
+    opacity: 70%;
+    position: absolute;
+    top: 65%;
+    Left: 83%;
+    transform: scaleX(-1);
+}
+
+
+.scroll {
+    max-height: 100px;
+    overflow-y: auto;
+}
