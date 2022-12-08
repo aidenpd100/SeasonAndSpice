@@ -1,0 +1,59 @@
+a{
+    color: darkblue;
+}
+
+.seasons{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.r{
+    height: 50vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.season{
+    height: 50vh;
+    width: 50vw;
+    background-size: 50vw 50vh;
+    font-family: 'Snippet';
+    display: flex;
+    justify-content: space-between;
+}
+
+.winter{
+    background-color: #D0E2EB;
+    background-image: url("Images/winter.png");
+}
+
+.spring{
+    background-image: url("Images/spring.png");
+}
+
+.summer{
+    background-color: #C9FCFF;
+    background-image: url("Images/summer.png");
+}
+
+.fall{
+    background-color: #FEFAE0;
+    background-image: url("Images/fall.png");
+}
+
+.recipes{
+    align-self: center;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.right{
+    text-align: right;
+}
+
+.invisible{
+    opacity: 0;
+}
