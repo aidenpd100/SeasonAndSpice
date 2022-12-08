@@ -1,0 +1,58 @@
+.background {
+    background-color: #C9FCFF;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.backgroundimg {
+    opacity: 65%;
+    width: 100vw;
+    max-height: 450px;
+    position: absolute;
+    bottom: -40px;
+}
+
+.card {
+    max-width: 300px;
+    display: inline-block;
+    background-color: #FFF27A;
+    min-height: 82vh;
+}
+
+.list-group-item {
+    background-color: #FFF27A;
+}
+
+.card-text {
+    font-weight: bold;
+}
+
+.ingreedients-instructions {
+    font-size: 12px;
+
+}
+
+.card-img-top {
+    border: 20px solid #FFF27A;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.decor {
+    width: 210px;
+    height: 210px;
+    opacity: 85%;
+    position: absolute;
+    left: 82%;
+    top: 70px;
+}
+
+.scroll {
+    max-height: 100px;
+    overflow-y: auto;
+}
